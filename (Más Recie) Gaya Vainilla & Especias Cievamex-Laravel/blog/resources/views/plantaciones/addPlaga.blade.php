@@ -1,0 +1,33 @@
+@extends('plantillas.adminMain')
+
+
+@section('titulo','Agregar Plaga')
+
+@section('formbus')
+
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col">
+		
+		<form method="post" action="{{route('plagasplantaciones.store')}}">
+		 @csrf
+		 <input hidden value="{{$plantacion->id}}" name="id">
+		  <div class="form-group">
+		    <label for="tipo">Plaga</label>
+		    <select class="form-control" id="plaga" name="plaga" >
+		      @foreach($plagas as $plaga)
+		      <option value="{{$plaga->id}}">{{$plaga->nombre}}</option>
+		      @endforeach
+		    </select>
+		  </div>
+					  
+		  <input type="submit" name="boton" value="Guardar" class="btn btn-primary">
+		</form>
+
+
+		</div>
+	</div>
+</div>
+
+@endsection

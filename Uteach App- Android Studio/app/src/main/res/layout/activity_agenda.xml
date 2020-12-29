@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.com.uteach.uteach.Agenda"
+    android:orientation="vertical">
+
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+           <TextView
+               android:id="@+id/textView16"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="24dp"
+               android:layout_marginStart="24dp"
+               android:layout_marginTop="22dp"
+               android:text="Alumno"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/textView17"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@+id/textView16"
+               android:layout_alignStart="@+id/textView16"
+               android:layout_below="@+id/textView16"
+               android:layout_marginTop="19dp"
+               android:text="Asesoria"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/textView18"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@+id/textView17"
+               android:layout_alignStart="@+id/textView17"
+               android:layout_below="@+id/textView17"
+               android:layout_marginTop="24dp"
+               android:text="Docente"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/textView19"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@+id/textView18"
+               android:layout_alignStart="@+id/textView18"
+               android:layout_below="@+id/textView18"
+               android:layout_marginTop="23dp"
+               android:text="Hora Entrada"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/textView20"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@+id/textView19"
+               android:layout_alignStart="@+id/textView19"
+               android:layout_below="@+id/textView19"
+               android:layout_marginTop="22dp"
+               android:text="Hora Salida"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/redirec"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/textView25"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="49dp"
+               android:text="Chat" />
+
+           <TextView
+               android:id="@+id/txt_alx"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_above="@+id/textView17"
+               android:layout_alignLeft="@+id/textView22"
+               android:layout_alignStart="@+id/textView22"
+               android:text="TextView"
+               android:textSize="20sp" />
+
+           <TextView
+               android:id="@+id/textView22"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignBaseline="@+id/textView17"
+               android:layout_alignBottom="@+id/textView17"
+               android:layout_alignLeft="@+id/textView23"
+               android:layout_alignStart="@+id/textView23"
+               android:text="Desarrollo Web"
+               android:textSize="20sp" />
+
+           <TextView
+               android:id="@+id/textView23"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@+id/textView24"
+               android:layout_alignStart="@+id/textView24"
+               android:layout_alignTop="@+id/textView18"
+               android:layout_marginTop="8dp"
+               android:text="Eloy Marcos"
+               android:textSize="20sp" />
+
+           <TextView
+               android:id="@+id/textView24"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignBaseline="@+id/textView19"
+               android:layout_alignBottom="@+id/textView19"
+               android:layout_alignLeft="@+id/redirec"
+               android:layout_alignStart="@+id/redirec"
+               android:layout_marginLeft="57dp"
+               android:layout_marginStart="57dp"
+               android:text="13:00"
+               android:textSize="20sp" />
+
+           <TextView
+               android:id="@+id/textView25"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignBaseline="@+id/textView20"
+               android:layout_alignBottom="@+id/textView20"
+               android:layout_alignLeft="@+id/textView24"
+               android:layout_alignStart="@+id/textView24"
+               android:text="14:00"
+               android:textSize="20sp" />
+       </RelativeLayout>
+
+   </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>

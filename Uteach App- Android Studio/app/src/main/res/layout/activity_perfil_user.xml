@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="mx.com.uteach.uteach.PerfilUser">
+
+
+    <ImageView
+        android:id="@+id/pu_imagen"
+        android:layout_width="210dp"
+        android:layout_height="192dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/pu_nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pu_nombre"
+        android:layout_width="169dp"
+        android:layout_height="31dp"
+
+        android:layout_alignLeft="@+id/regresar"
+        android:layout_alignStart="@+id/regresar"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="44dp"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/pu_imagen" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="86dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pu_imagen"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="44dp"
+        android:orientation="vertical"
+        android:text="Nombre"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/pu_nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pu_imagen" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="86dp"
+        android:layout_height="31dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="20dp"
+        android:text="Apellidos"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/pu_apellidos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/pu_apellidos"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignLeft="@+id/pu_edad"
+        android:layout_alignStart="@+id/pu_edad"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/pu_nombre" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="86dp"
+        android:layout_height="31dp"
+        android:layout_alignBaseline="@+id/pu_edad"
+        android:layout_alignBottom="@+id/pu_edad"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="25dp"
+        android:text="Edad"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/pu_edad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/pu_edad"
+        android:layout_width="167dp"
+        android:layout_height="31dp"
+        android:layout_alignEnd="@+id/pu_sexo"
+        android:layout_alignRight="@+id/pu_sexo"
+        android:layout_below="@+id/textView6"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/pu_apellidos" />
+
+    <TextView
+        android:id="@+id/pu_sexo"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignLeft="@+id/pu_nombre"
+        android:layout_alignStart="@+id/pu_nombre"
+        android:layout_below="@+id/pu_edad"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/pu_edad" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="86dp"
+        android:layout_height="31dp"
+
+        android:layout_alignBaseline="@+id/pu_sexo"
+        android:layout_alignBottom="@+id/pu_sexo"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="24dp"
+        android:text="Sexo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/pu_sexo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/pu_imagen"
+        android:layout_alignStart="@+id/pu_imagen"
+        android:layout_below="@+id/pu_sexo"
+        android:layout_marginEnd="133dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="20dp"
+        android:text="Regresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pu_sexo" />
+
+</android.support.constraint.ConstraintLayout>

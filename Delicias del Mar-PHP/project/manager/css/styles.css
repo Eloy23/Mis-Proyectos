@@ -1,0 +1,198 @@
+.navbar{
+	background-color: #535151 !important;
+	padding: 15px;
+}
+#body1{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body2{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body3{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body4{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body5{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body6{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body7{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body8{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body9{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body10{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body11{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body12{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body13{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body14{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#body15{
+	background-image: url("../img/e.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+
+
+.card{
+	margin: auto;
+}
+#txt{
+	color: white;
+	text-align: justify;
+	font-size: 1.2em;
+}
+.xd{
+	text-align: center;
+	color: white;
+}
+#l1{
+	color: blue;
+}
+.txtNew {
+    background-color: #535151 !important;
+}
+.font_2{
+	line-height: 1.3em;
+    text-align: center;
+    font: normal normal normal 41px/1.4em lulo-clean-w01-one-bold,sans-serif;
+    color: #5F0038;
+ 	
+}
+.font_4{
+	line-height: 1.3em;
+    text-align: center;
+	font: normal normal normal 30px/1.4em lulo-clean-w01-one-bold,sans-serif;
+    color: #5F0038;
+}
+#container{
+	background: rgba(255,255,255,0.5);
+	width: 50%;
+	margin: auto;
+}
+#container2{
+	background: rgba(255,255,255,0.5);
+	width: 50%;
+	margin: auto;
+}
+.jumbotron{
+	background: url('../img/3.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 150px 50px;
+	text-align: center;
+}
+.jumbotron2{
+	background: url('../img/6.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 150px 50px;
+	text-align: center;
+}
+#container-jumbotron{
+	background: rgba(255,255,255,0.5);
+	width: 50%;
+	margin: auto;
+}
+.container-jumbotron2{
+	background: rgba(255,255,255,0.5);
+	width: 50%;
+	margin: auto;
+}
+.frame-img{
+	overflow: hidden;
+}
+.img-cat{
+	transition: ease.out 0.5s;
+}
+.img-cat:hover{
+	transition: ease-in 1s;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+.a{
+	align-content: center;
+}
+.classic1rDU_{
+    background-color: rgba(101, 101, 101, 1);
+    height: 2px;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nav{
+	align-items: center;
+}
+.text{
+	font-size: 1.2em;
+}
+#k{
+	text-align: center !important;
+	border: solid 3px black;
+}
+.ejemplo{ 
+	background: url(img/face2.png) no-repeat ; 
+	width: 40px;
+	height: 40px;
+}
+.ejemplo:hover{
+background: url(img/face2.png) 0px -50px no-repeat ; 
+} 
+.div{
+	background: rgba(255,255,255,0.5);
+}
+.img1{
+	align: center !important;
+}
+#background{
+	background-color: rgb(255,255,255,0.2);
+}
+#background1{
+	background-color: rgb(255,255,255,0.2);
+}

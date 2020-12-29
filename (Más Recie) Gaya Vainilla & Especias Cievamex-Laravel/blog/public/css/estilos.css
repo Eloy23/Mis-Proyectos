@@ -1,0 +1,55 @@
+.card{
+	border: #2a4e33 5px solid ;
+}
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container1 img {
+  width: 100%;
+  height: auto;
+}
+
+.container1 .btn1 {
+  position: absolute;
+  top: 50%;
+left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container1 .btn1:hover {
+  background-color: black;
+}
+
+.btn1 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+#pdf-titulo{
+  margin-top: 50px;
+  padding-right: 5%;
+}
+#socio-pdf{
+  margin-left: 60px;
+ 
+}
